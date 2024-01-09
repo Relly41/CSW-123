@@ -1,0 +1,93 @@
+main{
+    
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 15px;
+    background-color: antiquewhite;
+    box-shadow: -10px 10px 10px gray, 10px 10px 10px gray;
+        
+}
+header{
+    text-align: center;
+    
+    height: 150px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(gold,black);
+    font-size: 30;
+    text-shadow: 5px 2px gold;
+    
+}
+article {
+   
+    padding-right: 10px;
+    
+    padding-left: 25%;   
+    
+}
+
+
+footer{
+    text-align: center;
+    
+    padding: 50px;
+    margin-bottom: 10px;
+     background-image: radial-gradient(gold,black);
+     margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 5px 2px gold
+    
+}
+img{
+    width: 200px;
+    height: 90px;
+    
+    float: left;
+    padding-right: 20px;
+    
+}
+*{margin-top: 0px;
+}
+
+aside {background-image: radial-gradient(gold,black);
+
+       float: left;
+       width:20%;
+       padding: 10px;
+       margin-top: 180px;
+       height: 200px;
+       color: aliceblue;
+
+
+}
+a:hover{
+       font-size: 25px;
+       color: white;
+       background-color:gainsboro;
+}
+.aside2{margin-top: 0px;
+}
+
+table, th,td{border: 3px solid gold;
+
+             border-collapse: collapse;
+             width: 100%;
+             padding-left: 10px;
+             padding-right:10px;
+             
+            }
+
+
+tr:nth-child(odd){
+            background-color: palegoldenrod;
+    
+}
+tr:nth-child(even){
+            background-color: darkgoldenrod;
+}
+td{text-align: center}
+caption{font-weight: bold;}
+li{ list-style-type:square}
+.logo{height: 150px; width: 220px}
+
+

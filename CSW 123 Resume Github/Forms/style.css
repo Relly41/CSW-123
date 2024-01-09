@@ -1,0 +1,48 @@
+textarea {background-color: lightgray;
+          width: 200px;
+          height: 150px;
+        font-family: cursive;
+        color: red;
+        font-size: 18px;
+}
+
+input {
+    width: 100px;
+    height: 30px;
+    border: 3px solid red;
+}
+.submit4{
+    padding: 10px 20px; 
+    background-color: antiquewhite;
+    border: 3px solid blue;
+}
+
+#date{
+    font-size: 25px;
+    height: 50px;
+    width: 310px;
+    background-color: aqua;
+}
+
+.dateForm {
+    background-color: beige;
+    box-shadow: 2px 2px 3px 4px, 2px 3px 4px;
+    padding 20px;
+    font-size: 20px;
+    width: 500px;
+    
+}
+
+.search {
+    width: 200px;
+    color: dimgray;
+    
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+    width: 210px;
+    padding: 10px;
+    
+}

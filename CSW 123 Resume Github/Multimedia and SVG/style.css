@@ -1,0 +1,30 @@
+svg {
+    width: 800px;
+    height: 800px;
+}
+
+circle {
+    cx: 100;
+    cy: 100;
+    stroke-width: 2px;
+    r: 70px;
+    fill: red;
+    stroke: blue;
+    
+}
+
+rect {
+    width: 300px;
+    height: 250px;
+    stroke: green;
+    fill: gray;
+    stroke-width: 3px;
+    x: 250px;
+    y: 250px;
+}
+
+video {
+    
+    border: 3px solid red;
+    
+}

@@ -1,0 +1,81 @@
+div {
+    margin-left:  300px;
+    margin-right: 300px;
+    background-color: cadetblue;
+    padding: 10px;
+    box-shadow: 6px 7px;
+    border-radius: 12px;
+}
+
+header {
+    font-size: 30px;
+    background-image: url("usamap.jpg");
+    text-shadow: 1px 2px white;
+    color: yellow;
+    border-radius: 12px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+footer {
+    font-size: 25px;
+    height: 50px;
+    background-image: url("usamap.jpg");
+    border-radius: 12px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    color: yellow;
+    
+}
+
+nav li {
+    display: inline-block;
+    padding: 40px 55px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    list-style-type: none;
+    text-align: center; 
+}
+
+nav li a:hover {
+    background-color: red;
+    color: white;
+    border-radius: 12px;
+}
+
+fieldset {
+    background-color: darkseagreen;
+}
+
+
+.column {
+    float: left;
+    width: 30%;
+    background-color: lightgray;
+    padding: 10px;
+    border: 8px double gray;
+    border-radius: 12px;
+    margin: 0px;
+    
+    
+    
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#aOutput, #pOutput, #p1 {
+    background-color: white;
+    
+}
+

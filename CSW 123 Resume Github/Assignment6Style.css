@@ -1,0 +1,41 @@
+body {
+    border: 3px solid blue;
+    width: 500px;
+    height: 500px;
+    margin-left: 650px;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+label {
+    color: blue;
+    display: inline-block;
+    font-weight: bold;
+    width: 135px;
+}
+
+h2 {
+   color: blue;
+   font-weight: bold;
+}
+
+#submit {
+    color: black;
+    font-weight: normal;
+    background-color: darkgray;
+    box-shadow: 2px 2px blue;
+    width: 100px;
+    height: 25px;
+    margin-left: 130px;
+}
+
+#reset {
+    color: black;
+    font-weight: normal;
+    background-color: darkgray;
+    box-shadow: 2px 2px blue;
+    width: 100px;
+    height: 25px;
+    margin-left: 10px;
+}

@@ -1,0 +1,102 @@
+<html>
+    <head>
+         <link rel="stylesheet" href="styling.css"  type="text/css">
+    </head>
+    
+    <body>
+        <h2>Change the paragraph content using innerHTML</h2>
+            <p id="par1"> Hello HTML CSW 123 Class</p>
+            <button type="button" onclick="document.getElementById('par1').innerHTML='Hello JavaScript CSW123 class'">Click me to change the  paragraph content</button>
+            <br><br>
+        <h2>JavaScript Change the Image by getting its ID</h2>
+            <button type="button" onclick="document.getElementById('image').src='pic_bulboff.gif'">Turn Bulb off</button>
+            <img  id="image"src="pic_bulboff.gif">
+            <button type="button" onclick="document.getElementById('image').src='pic_bulbon.gif'"> Turn Bulb On</button>
+        <h2>Change the style of tags, example chaning the font size</h2>
+            <p id="p1"> It's Thursday November 3rd, 2022 </p>
+            <button type="button" onclick='document.getElementById("p1").style.fontSize="40px"'> Click to change the font size to 40px</button>
+    
+        <h2> Example, to hide a HTML tag content</h2>
+            <p id="p2"> 
+                The No. 2 Mount Union football team shut out Otterbein, 59-0, in Ohio Athletic Conference (OAC) action on Saturday to remain undefeated on the season.
+
+                The shutout marked the Raiders' fourth of the season. Through eight games, Mount Union (8-0, 7-0 OAC) has outscored its opponents 423-30.
+
+                Mount Union scored a touchdown on six of its first eight possessions, including five straight. The Raiders outgained the Cardinals 405 to 92, including 209 to minus seven yards on the ground.
+
+            </p>
+        <button type="button" onclick="document.getElementById('p2').style.display='none'"> click to hide the paragraph</button>
+        <button type="button" onclick="document.getElementById('p2').style.display='block'"> click to show the paragraph</button>
+        
+        
+        <h1>JavaScript could be used inline with the tags, internal or External</h1>
+            <h2>Internal JavaScript Code</h2>
+                <h3>Change the font color of the paragraph by calling the function changeColor()</h3>
+                    <p id="p3">
+                        The shutout marked the Raiders' fourth of the season. Through eight games, Mount Union (8-0, 7-0 OAC) has outscored its opponents 423-30.
+
+                         Mount Union scored a touchdown on six of its first eight possessions, including five straight. The Raiders outgained the Cardinals 405 to 92, including 209 to minus seven yards on the ground.
+                    
+                    </p>
+                    <button type="button" onclick=changeColor()> Click me to change the font color of the paragraph</button>
+                    <button type="button" onclick="changeColorToOriginal()">Click me to change the font color of the paragraph to original </button>
+        <br> <br>
+                    <button type="button" onclick="globalChange()">Click me to change the style of the paragraph</button>
+        
+                <h2> Exercises</h2>
+                        <pre>
+
+                                
+                           1- Create a button to change the font color to the original color.
+                           2- Create a button to change:
+                               - background color to rgb(50,50,50), 
+                               - font color to rgb(150,150,150)
+                               - make a shadow 2px 3px gray
+                               - make the paragraph italic
+                               - change the font size to 25 px
+
+
+
+                        </pre>
+        <h2> Variables, Statements, expressions, etc.</h2>
+        <p id="p4"> Here is the result of the summation by click the below button</p>
+        <button type="button" onclick="sumNumbers()">Click this button to show the result</button>
+        <button type="button" onclick="retrieveParagraph('Here is the result of the summation by click the below button','p4')"> click to retrieve the paragraph</button>
+        
+        <h2>Sum any numbers</h2>
+        <p id="p5"> Click the below button to show the sum</p>
+        <button type="button" onclick="sumAnyNumbers(100,4545,8)"> Click me!</button>
+        <button type="button" onclick="retrieveParagraph('Click the below button to show the sum','p5')"> Click the button to retrieve the paragraph</button>
+        <h2> Exercise: convert Fahrenheit to Celsius</h2>
+        
+        <p id="p6"> click below to convervet 100 F to a value in Celsius </p>
+        <button type="button" onclick="FahrenheitToCelsius(100,'p6')"> in Celsius</button>
+        <button type="button" onclick="celsiusToFahrenHeit(37.78, 'p6')"> Fahrenheit</button>
+        
+        <h2>Function with parameters and return</h2>
+        <p>Any function with parameters in the (), are used inside the {} block.
+        <br> the return statement will return the result of the code execution  to you once you call the function</p>
+        <button type="button" onclick=" displayMultiplicationResult()"> click the button to multiply 124 and 6743</button>
+        <h2> Exercise</h2>
+        <p> Create two functions to compute the area and perimeter  of a circle  and rectangle. Test your script by calling functions which take radius and height and width.<br> Display the areas and perimeters in  a paragraph element</p>
+        <button type="button" onclick="displayRectangleAndCircle()"> click here to display the shapes info</button>
+        
+        <button type="button" onclick="getGeometricAreaAndPerimeter(95.5, 10, 10)"> click to see result using the second function</button>
+        <p id="p7"></p>
+        
+        
+                <script src="scripting.js">
+                   
+                    
+                </script>
+
+    </body>
+  
+       
+    
+    
+    
+    
+    
+    
+</html>

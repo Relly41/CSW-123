@@ -1,0 +1,176 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    
+    
+    </head>
+
+    <body>
+    <h1>HTMLForms</h1>
+    <h2>Form Elements</h2>
+    <form action="/file_name.php">
+    First Name:<br>
+    <input type="text" name="firstName" value="Enter First Name">
+    <br>
+    Last Name:<br>
+    <input type="text" name="lastName" value="Enter Last Name here...">  
+    <br>
+    <input type="submit">
+    </form>
+    
+    <h2>Radio Input</h2>
+    <form action="file2_name.php">
+    <input type="radio" name="female" checked> Female
+    <br>
+    <input type="radio" name="male"> Male
+    <br>
+    <input type="radio" name="other"> Other    
+    <br> 
+    </form>
+        
+    <h2>Grouping Form Data with Datafiled</h2>
+    <form action="file3.php">
+        <fieldset>
+        <legend>Personal Information</legend>
+            <br>
+            First Name:<br>
+            <input type="text" name="firstName">
+            <br>
+            Last Name:<br>
+            <input type="text" name="lastName" >  
+            <br>
+            <input type="submit">
+        </fieldset>   
+    </form>
+        
+    <h2>Dropdown List Input</h2>
+    <form action="file3.php">
+        <select name="states" size="2" multiple>
+            <option>Ohio</option>
+            <option>New York</option>
+            <option>California</option>
+            <option>Maryland</option>
+            <option selected>Pennsylvania</option>
+        </select>
+        <br><br>
+        <input type="submit">
+    </form>
+        
+    <h2>TextArea Input</h2>
+    <form action="file4.php">
+        <textarea name="message"></textarea> <br>
+        <input class="submit4" type="submit">
+    </form>
+        
+    <h2>Button</h2>
+    <form action="file4.php">
+        <input type="button" name="button" value="Click here!">
+    </form>
+    <button onclick="alert('Hello Everyone')">Click Here!</button>
+        
+    <h2>DataList Input</h2>
+    <form action="file5.php">
+        <input list="options" name="options">
+        <datalist id="options">
+            <option value="option1"></option>
+            <option value="option2"></option>
+            <option value="option3"></option>
+            <option value="option4"></option>
+        </datalist>
+    </form>
+    <input type="submit">
+    
+    <h2>Username and Password Input Form</h2>
+    <form action="file5.php">
+        Username:
+            <input type="text" name="username"><br><br>
+        Password:
+            <input type="password" name="password"><br><br>      
+        </form>
+        
+        <h2>Reset Input</h2>
+        <form action="file6.php">
+        First Name:
+            <input type="text" name="firstName"><br><br>
+            Last Name:
+            <input type="text" name="lastName"><br>
+            <br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+        
+        <h2>Checkbox Input</h2>
+        <form action="file.php">
+            <input type="checkbox" name="students">
+            I am a undergraduate student <br>
+            <input type="checkbox" name="students">
+            I am a graduate student <br>
+            <input type="checkbox" name="students">
+            I am an alumni <br>
+        </form>
+        
+        <h2>Color Input</h2>
+        <form action="file.php">
+            Select your favorite color: <br>
+            <input type="color" value="#435645" style="width: 100px; height: 40px; border: 3px solid red">
+        </form>
+        
+        <h2>Date Input</h2>
+        <form action="file.php">
+            Select the date:
+            <input type="date" name="date">
+        </form>
+        
+        <h2>Max and Min Attributes in Date Input</h2>
+        <form action="file.php">
+            Select the date
+            <input type="date" name="date" max="2022-10-25">
+        </form>
+        
+        <h2>Date and Time Input</h2>
+        <form class="dateForm" action="file.php">
+            Select the date and time:
+            <input type="datetime-local" name="date" max="2022-10-25">
+        </form>
+        
+        <h2>Number Input</h2>
+        <form action="file.php">
+            Enter your GPA:
+            <input type="number" name="gpa" step="0.1" min="0" max="4">
+        </form>
+        
+        <h2>Label Element to be Associated with Input</h2>
+        <form>
+            <label for="firstName">First Name: </label>
+            <input type="text" id="firstname" name="firstname"><br>
+            <label for="intial">Initial: </label>
+            <input type="text" id="initial" name="initial"><br>
+            <label for="lastName">Last Name: </label>
+            <input type="text" id="lastname" name="lastname"><br>
+            <label for="Week">Week: </label>
+            <input type="week" id="week" name="week"><br>
+        </form>
+        
+        <h2>Range Input</h2>
+        <form action="file.php">
+            Select your score range: <br>
+            <input type="range" name="score" min="0" max="100">
+        </form>
+        
+        <h2>Search Input</h2>
+        <form class="search" action="file.php">
+            Select your score range: <br>
+            <input type="search" name="search" value="enter here...">
+            <input type="submit"> 
+        </form>
+        
+        
+        
+    </body>
+
+
+
+
+
+
+</html>

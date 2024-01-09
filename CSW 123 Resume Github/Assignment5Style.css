@@ -1,0 +1,33 @@
+header {
+    background-image: linear-gradient(
+        30deg, #f6bb73 0%, #fffded 30%, white 50%, #fffded 80%, #f6bb73 100%);
+    padding: 15px;
+    border-bottom: 5px solid firebrick;
+}
+
+body {
+    background-color: floralwhite;
+    border: 5px solid firebrick;
+    padding: 5px;
+    
+}
+
+h1, h2 {
+    color: firebrick;
+}
+
+img {
+    float: left;
+}
+
+section {
+    column-count: 2;
+    width: 75%;
+    float: right;
+}
+
+aside {
+    width: 25%;
+    float: left;
+}
+
